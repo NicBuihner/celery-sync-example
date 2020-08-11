@@ -1,7 +1,7 @@
 # celery-sync-example
 A quick, functional example of how Celery can be used.
 
-You define your tasks module style. That .py file or app/__init__.py module is
+You define your tasks module style. That .py file or app/\__init__.py module is
 then run as a 'worker' that waits for tasks to be sent to it. The app defines
 how the tasks are completed. Rabbitmq is the default backend, installing and
 running it is enough to get a simple example up and running, no extra
