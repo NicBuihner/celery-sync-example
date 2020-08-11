@@ -1,5 +1,5 @@
 # celery-sync-example
-A quick, functional example of how Celery can be used.
+A quick, functional example of how [Celery](https://docs.celeryproject.org/en/stable/getting-started/introduction.html) can be used.
 
 You define your tasks module style. That .py file or app/\_\_init__.py module is
 then run as a 'worker' that waits for tasks to be sent to it. The app defines
