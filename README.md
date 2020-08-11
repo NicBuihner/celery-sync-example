@@ -7,9 +7,9 @@ how the tasks are completed. Rabbitmq is the default backend, installing and
 running it is enough to get a simple example up and running, no extra
 configuration needed.
 
-1 Install the default rabbitmq-server backend, Celery listens here for tasks
-2 Define a Tasks.py file
-3 Run `celery -A Tasks worker &`
+* Install the default rabbitmq-server backend, Celery listens here for tasks
+* Define a Tasks.py file
+* Run `celery -A Tasks worker &`
 
 You would then create a Python program that would generate the work to be sent
 to the Celery worker. We use pymssql to talk directly to our SIS database and
